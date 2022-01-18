@@ -1,0 +1,104 @@
+a {
+	text-decoration: none;
+	color: black
+}
+ul {
+	list-style: none;
+}
+header {
+	margin: 0 -8px;
+}
+.header__contacts {
+	display: flex;
+	align-items: center;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.contacts__phone__icon {
+	padding-left: 58px;
+}
+
+.contacts__number {
+	padding-left: 14px;
+	padding-right: 21px;
+	font-weight: 700;
+}
+
+.contacts__callme__btn {
+	padding-left: 15px;
+}
+
+.contacts__callme__btn a{
+	text-decoration: none;
+	color: #EE2B2E;
+	font-size: 14px;
+;
+}
+
+.contacts__adress, .menu__logo {
+	font-size: 14px;
+}
+.header__menu {
+	display: flex;
+	max-width: 1440px;
+	margin: 15px auto;
+	justify-content: flex-start;	
+}
+.menu__content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: calc(100% - 120px);
+}
+.menu__list {
+	display: flex;
+}
+.menu__content a:hover {
+	color: red;
+	font-weight: bold;
+}
+.list__item:not(:last-child) {
+	margin-right: 46px;
+}
+.menu__userbtns a:not(:last-child) {
+	margin-right: 45px;
+}
+.list__item__active {
+	font-weight: bold;
+	border-bottom: 2px solid #EE2B2E;
+}
+.list__item__active a {
+	color: red;
+}
+.header__products {
+	background: #EE2B2E;
+}
+.products__container {
+	max-width: 1440px;
+	margin: 0 auto;
+	height: 60px;
+	display: flex;
+	align-items: center;
+}
+.products__list {
+	display: flex;
+	width: 100%;
+}
+.products__list li:first-child a {
+	padding: 19px 15px 19px 15px;
+	margin-left: -45px;
+}
+.products__item a {
+	color: white;
+}
+.products__list li:not(:first-child) a {
+	padding: 19px 15px;
+}
+.products__item__active a {
+	border-bottom: 2px solid #FFFFFF;
+}
+.products__item a:hover {
+	color: black;
+	background-color: white;
+}
