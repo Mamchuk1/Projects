@@ -8,6 +8,10 @@ ul {
 header {
 	margin: 0 -8px;
 }
+.main {
+	width: 1920px;
+	margin-left: -8px;	
+}
 .header__contacts {
 	display: flex;
 	align-items: center;
@@ -101,4 +105,8 @@ header {
 .products__item a:hover {
 	color: black;
 	background-color: white;
+}
+.swiper {
+	width: 1920px;
+	height: 620px;
 }
