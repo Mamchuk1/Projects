@@ -1,3 +1,6 @@
+body {
+	margin: 0;
+}
 a {
 	text-decoration: none;
 	color: black
@@ -8,9 +11,9 @@ ul {
 header {
 	margin: 0 -8px;
 }
-.main {
-	width: 1920px;
-	margin-left: -8px;	
+.header__contacts__container {
+	background-color: #EFF2F9;
+	height: 50px;
 }
 .header__contacts {
 	display: flex;
@@ -109,4 +112,29 @@ header {
 .swiper {
 	width: 1920px;
 	height: 620px;
+}
+.swiper-button-prev, .swiper-button-next {
+	width: 70px;
+	height: 70px;
+	border-radius: 100px;
+	background-size: 100%;
+}
+.swiper-button-prev {
+	background-color: #FFFFFF;
+	background-position: center;
+	left: 266px;
+}
+.swiper-button-prev::after {
+	position: absolute;
+	left: 20px;
+	color: #212121
+}
+.swiper-button-next {
+	background-color: #EE2B2E;
+	right: 265px;
+}
+.swiper-button-next::after {
+	position: absolute;
+	right: 20px;
+	color: #FFFFFF;
 }
