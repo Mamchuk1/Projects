@@ -171,3 +171,12 @@ header {
 	width: 330px;
 	height: 255px;
 }
+.line-through {
+	text-decoration: line-through;
+}
+.price {
+	color: red;
+}
+.leaflets .products-block a {
+	padding: 13px 10px;
+}
